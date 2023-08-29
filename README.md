@@ -4,11 +4,8 @@ In this challenge, I scraped the Mars news site for titles and previews. I also 
 At the beginning of each file, I had to import my ChromeDriverManager and create a path that can follow. I was instructed to do this by my TA, who got the solution from BCS.
 
 "from webdriver_manager.chrome import ChromeDriverManager
-
 executable_path = {'executable_path': ChromeDriverManager().install()}
-
 executable_path
-
 browser         = Browser(driver_name    ='chrome',
                           retry_count    =1,
                           **executable_path,
